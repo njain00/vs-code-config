@@ -1,0 +1,48 @@
+{
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "workbench.settings.editor": "json",
+    "workbench.colorTheme": "Aura Dark (Soft Text)",
+    "editor.lineNumbers": "relative",
+    "workbench.colorCustomizations": {
+        "[Aura Dark (Soft Text)]": {
+            "editor.background": "#110f17",
+            "terminal.background": "#110f17",
+            "activityBar.background": "#110f17",
+            "statusBar.background": "#110f17",
+            "tab.inactiveBackground": "#110f17",
+            "editorGroupHeader.tabsBackground": "#110f17"
+        },
+        "editorSuggestWidget.foreground": "#fff",
+        "editorSuggestWidget.focusHighlightForeground": "#97f4e2",
+        "editorSuggestWidget.highlightForeground": "#97f4e2",
+        "editorSuggestWidget.selectedForeground": "#fff",
+        "editorLineNumber.foreground": "#97f4e2"
+    },
+    "workbench.iconTheme": "moxer-icons",
+    "editor.fontFamily": "Geist Mono",
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.horizontal": "auto",
+    "window.titleBarStyle": "custom",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "explorer.compactFolders": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.formatOnSave": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim-vscode/init.vim",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "explorer.confirmDelete": false,
+    "window.commandCenter": false
+}

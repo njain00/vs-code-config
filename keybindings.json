@@ -1,16 +1,16 @@
 [
-  {
-    "command": "vscode-neovim.compositeEscape1",
-    "key": "j",
-    "when": "neovim.mode == insert && editorTextFocus",
-    "args": "j"
-  },
-  {
-    "command": "vscode-neovim.compositeEscape2",
-    "key": "k",
-    "when": "neovim.mode == insert && editorTextFocus",
-    "args": "k"
-  },
+  // {
+  //     "command": "vscode-neovim.compositeEscape1",
+  //     "key": "j",
+  //     "when": "neovim.mode == insert && editorTextFocus",
+  //     "args": "j"
+  // },
+  // {
+  //     "command": "vscode-neovim.compositeEscape2",
+  //     "key": "k",
+  //     "when": "neovim.mode == insert && editorTextFocus",
+  //     "args": "k"
+  // },
   {
     "key": "ctrl+f",
     "command": "actions.find",
@@ -131,6 +131,22 @@
     "when": "!terminalFocus"
   },
   {
+    "key": "ctrl+shift+'",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+g ctrl+c",
+    "command": "workbench.action.closeEditorsAndGroup"
+  },
+  {
+    "key": "ctrl+g ctrl+l",
+    "command": "workbench.action.newGroupRight"
+  },
+  {
+    "key": "ctrl+g ctrl+h",
+    "command": "workbench.action.newGroupLeft"
+  },
+  {
     "key": "ctrl+j",
     "command": "-workbench.action.togglePanel"
   },
@@ -165,11 +181,11 @@
   //  "when": "editorTextFocus && editorLangId == 'sql'"
   //},
   {
-    "key": "ctrl+o",
+    "key": "ctrl+shift+o",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "ctrl+shift+o",
+    "key": "ctrl+o",
     "command": "workbench.view.explorer"
   },
   {
@@ -177,8 +193,17 @@
     "command": "-workbench.view.explorer"
   },
   {
-    "key": "t",
+    "key": "ctrl+t ctrl+c",
     "command": "workbench.action.closeActiveEditor",
     "when": "neovim.mode == 'normal' && editorTextFocus"
+  },
+  {
+    "key": "cmd+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+t ctrl+n",
+    "command": "workbench.action.files.newUntitledFile",
+    "when": "editorTextFocus"
   }
 ] // Place your key bindings in this file to override the defaults
